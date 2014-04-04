@@ -119,7 +119,7 @@ h3 { color: #006286; text-shadow: rgba(255,255,255,0.8) 0px 0px 1px; font-size: 
 	.flex-direction-nav li a,
 	.ui-content ul.projects-item li .cnt span.zoom-ico,
 	.arr-ico,
-	#logo a,
+	#logo a { background-image: url(images/blue/logo2x.png); }
 	.ui-footer .mail-ico,
 	.ui-content .ui-icon { background-image: url(images/blue/page@2x.png); -webkit-background-size: 260px 134px; -moz-background-size: 260px 134px; background-size: 260px 134px; }
 	.ui-content ul.projects-item li .cnt { background-image: url(images/blue/cnt-bg.png); -webkit-background-size: 260px 134px; -moz-background-size: 260px 134px; background-size: 260px 134px; }
