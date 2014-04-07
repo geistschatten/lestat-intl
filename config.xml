@@ -4,7 +4,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.lestatinternational.app"
-        version = "1.0.3">
+        version = "1.0.4">
 
     <name>Lestat International</name>
 
@@ -58,12 +58,19 @@ permission on your app, which PhoneGap requires.
     <gap:splash src="screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
     <gap:splash src="screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
     <gap:splash src="screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="screen/android/screen-ldpi-landscape.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="screen/android/screen-mdpi-landscape.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="screen/android/screen-hdpi-landscape.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:density="xhdpi" />
     <gap:splash src="screen/blackberry/screen-250.png" gap:platform="blackberry" />
     <gap:splash src="screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="screen/ios/screen-iphone-landscape.png" gap:platform="ios" width="480" height="320" />
+    <gap:splash src="screen/ios/screen-iphone-landscape-2x.png" gap:platform="ios" width="960" height="640" />
     <gap:splash src="screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024" />
     <gap:splash src="screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
     <gap:splash src="screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
+    <gap:splash src="screen/windows-phone/screen-landscape.jpg" gap:platform="winphone" />
 
     <!--
 Define access to external domains.
