@@ -116,10 +116,10 @@ h3 { color: #006286; text-shadow: rgba(255,255,255,0.8) 0px 0px 1px; font-size: 
 	.ui-footer a .ui-icon-twitter-ico,
 	.ui-footer a .ui-icon-mail-ico,
 	.socials a { background-image: url(images/icos@2x.png); -webkit-background-size: 232px 111px; -moz-background-size: 232px 111px; background-size: 232px 111px; }
+	#logo a { background-image: url(images/blue/logo2x.png); -webkit-background-size: 210px 69px; -moz-background-size: 210px 69px; background-size: 210px 69px; }
 	.flex-direction-nav li a,
 	.ui-content ul.projects-item li .cnt span.zoom-ico,
 	.arr-ico,
-	#logo a { background-image: url(images/blue/logo2x.png); -webkit-background-size: 210px 69px; -moz-background-size: 210px 69px; background-size: 210px 69px; }
 	.ui-footer .mail-ico,
 	.ui-content .ui-icon { background-image: url(images/blue/page@2x.png); -webkit-background-size: 260px 134px; -moz-background-size: 260px 134px; background-size: 260px 134px; }
 	.ui-content ul.projects-item li .cnt { background-image: url(images/blue/cnt-bg.png); -webkit-background-size: 260px 134px; -moz-background-size: 260px 134px; background-size: 260px 134px; }
