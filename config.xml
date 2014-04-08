@@ -4,7 +4,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.lestatinternational.app"
-        version = "1.0.4">
+        version = "1.0.5">
 
     <name>Lestat International</name>
 
@@ -54,14 +54,18 @@ permission on your app, which PhoneGap requires.
     <icon src="icons/windows-phone/icon-173.png" gap:platform="winphone" gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="screen/android/screen-ldpi-landscape.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="screen/android/screen-mdpi-landscape.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="screen/android/screen-hdpi-landscape.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi"/>
+    <gap:splash src="screen/android/screen-xhdpi-n7-portrait.png" gap:platform="android" gap:density="xhdpi"/>
+    <gap:splash src="screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi"/>
+    <gap:splash src="screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi"/>
+    <gap:splash src="screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi"/>
+
+    <gap:splash src="screen/android/screen-xhdpi-n7-landscape.png" gap:platform="android" gap:density="xhdpi" width="1280" height="800" />
+    <gap:splash src="screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:density="xhdpi" width="1280" height="720" />
+    <gap:splash src="screen/android/screen-hdpi-landscape.png"  gap:platform="android" gap:density="hdpi" width="800" height="480" />
+    <gap:splash src="screen/android/screen-mdpi-landscape.png"  gap:platform="android" gap:density="mdpi" width="480" height="320" />
+    <gap:splash src="screen/android/screen-ldpi-landscape.png"  gap:platform="android" gap:density="ldpi" width="320" height="200" />
+
     <gap:splash src="screen/blackberry/screen-250.png" gap:platform="blackberry" />
     <gap:splash src="screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
