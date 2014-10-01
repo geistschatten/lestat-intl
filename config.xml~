@@ -4,12 +4,12 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.lestatinternational.app"
-        version = "1.0.2">
+        version = "1.0.6">
 
     <name>Lestat International</name>
 
     <description>
-        An app for the online e-commerce store LestatInternational.com
+        An app for the e-commerce store LestatInternational.com
     </description>
 
     <author href="http://hostarmor.com" email="info@hostarmor.com">
@@ -24,8 +24,8 @@ permission on your app, which PhoneGap requires.
     <preference name="permissions" value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version" value="2.9.0" /> <!-- all: current version of PhoneGap -->
-    <preference name="orientation" value="default" /> <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="phonegap-version" value="3.3.0" /> <!-- all: current version of PhoneGap -->
+    <preference name="orientation" value="portrait" /> <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device" value="universal" /> <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen" value="false" /> <!-- all: hides the status bar at the top of the screen -->
     <preference name="prerendered-icon" value="true" /> <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
@@ -54,10 +54,11 @@ permission on your app, which PhoneGap requires.
     <icon src="icons/windows-phone/icon-173.png" gap:platform="winphone" gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi"/>
+    <gap:splash src="screen/android/screen-xhdpi-n7-portrait.png" gap:platform="android" gap:density="xhdpi"/>
+    <gap:splash src="screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi"/>
+    <gap:splash src="screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi"/>
+    <gap:splash src="screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi"/>
     <gap:splash src="screen/blackberry/screen-250.png" gap:platform="blackberry" />
     <gap:splash src="screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
